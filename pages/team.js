@@ -37,7 +37,7 @@ const stagger = {
 };
 function TeamPage() {
     return (
-        <motion.div initial='initial' animate='animate' exit={{ opacity: 0 }}>
+        <motion.div className = "bg-white dark:bg-black"initial='initial' animate='animate' exit={{ opacity: 0 }}>
         <Head>
         <title>DSC Team</title>
       </Head>

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import { RiFacebookCircleLine, RiLinkedinBoxLine, RiInstagramLine, RiMediumLine, RiYoutubeLine } from "react-icons/ri";
+import SocialIcon from "./SocialIcon";
 function Hero() {
     return (
         <motion.div initial="hidden" animate="visible" variants={{
@@ -14,7 +15,7 @@ function Hero() {
                 delay: 0.2
               }
             },
-          }} className =" text-center md:text-left md:flex max-w-4xl mx-auto md:mx-auto mt-12 md:mt-24 items-start">
+          }} className ="text-center md:text-left md:flex max-w-4xl mx-auto md:mx-auto mt-12 md:mt-24 items-start">
             <h1 className="font-bold text-6xl leading-tight dark:text-white">Google Developer Student Club</h1>
             <div className = "mx-auto space-y-8">
                 <p className="text-2xl font-medium  dark:text-white"> BITS Pilani Hyderabad Campus Chapter</p>
@@ -32,11 +33,11 @@ function Hero() {
               }
             },
           }} className = "flex space-x-5">
-                  <RiFacebookCircleLine size = {30}/>
-                  <RiInstagramLine  size = {30}/>
-                  <RiLinkedinBoxLine  size = {30}/>
-                  <RiMediumLine  size = {30}/>
-                  <RiYoutubeLine size = {30}/>
+                  <SocialIcon href = "www.instagram.com" icon = {<RiFacebookCircleLine size = {30} />}/>
+                  <SocialIcon href = "www.instagram.com" icon = {<RiInstagramLine size = {30} />}/>
+                  <SocialIcon href = "www.instagram.com" icon = {<RiLinkedinBoxLine size = {30} />}/>
+                  <SocialIcon href = "www.instagram.com" icon = {<RiMediumLine size = {30} />}/>
+                  <SocialIcon href = "www.instagram.com" icon = {<RiYoutubeLine size = {30} />}/>
                 </motion.div>
             </div>
         </motion.div>
