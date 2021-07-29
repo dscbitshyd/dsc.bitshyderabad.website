@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Header from '../components/header/Header'
 import Hero from '../components/hero/Hero'
 import { motion } from 'framer-motion'
+import AboutUs from '../components/aboutUs/AboutUs';
+
 
 let easing = [0.6, -0.05, 0.01, 0.99];
 
@@ -30,13 +32,14 @@ const fadeInUp = {
 };
 export default function Home() {
   return (
-    <motion.div initial='initial' animate='animate' exit={{ opacity: 0 }}>
+    <motion.div className = "bg-white dark:bg-black" initial='initial' animate='animate' exit={{ opacity: 0 }}>
     <Head>
         <title>DSC BITS Hyd</title>
       </Head>
       <div className = "container">
       <Header/>
       <Hero/>
+      <AboutUs/>
       </div>
     </motion.div>
   )

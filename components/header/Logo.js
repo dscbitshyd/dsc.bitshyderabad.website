@@ -11,10 +11,10 @@ function Logo() {
 
         <div><img src = '/googleDscLogo.svg' alt = "Logo" height = {40} width = {40} loading="lazy" /></div>
         <div>
-        <h1 className="text-2xl">
+        <h1 className="text-2xl  dark:text-white">
             Developer Student Clubs
         </h1>
-        <h1 className="text-l">
+        <h1 className="text-l  dark:text-white">
             BITS Pilani Hyderabad Campus
         </h1>
         </div>

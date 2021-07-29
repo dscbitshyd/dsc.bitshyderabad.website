@@ -7,8 +7,8 @@ function BusinessDivision() {
             Business Division
         </h1>
         <div className="flex items-center">
-            <TeamItem url = "/Vaishnavi DSC.jpg" name = "Mani Venkat" position = "Dev Lead" github = "www.github.com/saiankit" linkedin = "www.linkedin.com"/>
-            <TeamItem url = "/Shreya DSC.jpg" name = "Vibha Narendra" position = "Dev Lead" github = "www.github.com/saiankit" linkedin = "www.linkedin.com"/>
+            <TeamItem url = "/Mani DSC.jpg" name = "Mani Venkat" position = "Business Lead" github = "www.github.com/saiankit" linkedin = "www.linkedin.com"/>
+            <TeamItem url = "/Shreya DSC.jpg" name = "Vibha Narendra" position = "Business Lead" github = "www.github.com/saiankit" linkedin = "www.linkedin.com"/>
         </div>
     </div>
     )
