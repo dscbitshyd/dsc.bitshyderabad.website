@@ -10,10 +10,10 @@ function Logo() {
 
         <div><img src = '/googleDscLogo.svg' alt = "Logo" height = {40} width = {40} loading="lazy" /></div>
         <div>
-        <h1 className="text-lg md:text-base lg:text-xl dark:text-white">
-            Developer Student Clubs
+        <h1 className="text-sm md:text-base lg:text-xl dark:text-white">
+            Google Developer Student Clubs
         </h1>
-        <h1 className="text-sm md:text-sm lg-text-base dark:text-white">
+        <h1 className="text-xs md:text-sm lg-text-base dark:text-white">
             BITS Pilani Hyderabad Campus
         </h1>
         </div>

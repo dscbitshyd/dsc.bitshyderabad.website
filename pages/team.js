@@ -56,7 +56,7 @@ function TeamPage() {
                 delay: 0.2
               }
             },
-          }} className = "text-center md:text-left max-w-4xl mx-auto md:mx-auto mt-12 md:mt-24 items-center">
+          }} className = "text-center md:text-left max-w-4xl mx-auto md:mx-auto mt-12 items-center">
           <h1 className = "text-5xl font-bold tracking-wide mx-auto">
               Meet our Team
           </h1>
