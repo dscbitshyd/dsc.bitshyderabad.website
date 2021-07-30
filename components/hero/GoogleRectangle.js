@@ -1,0 +1,77 @@
+function GoogleRectangle() {
+    return (
+        <div>
+            <div
+          className="
+            hidden
+            md:block
+            overflow-hidden
+            bg-red-600
+            rounded-l-full
+            absolute
+            h-45
+            w-2/4
+            top-32
+            right-0
+            lg:
+            -bottom-28
+            lg:-right-36
+            "
+        ></div>
+        <div
+          className="
+            hidden
+            md:block
+            overflow-hidden
+            bg-blue-600
+            rounded-l-full
+            absolute
+            h-45
+            w-2/4
+            top-40
+            right-0
+            lg:
+            -bottom-28
+            lg:-right-36
+
+            "
+        ></div>
+         <div
+        className="
+          hidden
+          md:block
+          overflow-hidden
+          bg-green-600
+          rounded-l-full
+          absolute
+          h-45
+          w-2/4
+          top-48
+          right-0
+          lg:
+          -bottom-28
+          lg:-right-36
+          "
+      ></div>
+        <div
+        className="
+          hidden
+          md:block
+          overflow-hidden
+          bg-yellow-400
+          rounded-l-full
+          absolute
+          h-45
+          w-2/4
+          top-56
+          right-0
+          lg:
+          -bottom-28
+          lg:-right-36
+          "
+      ></div>
+        </div>
+    )
+}
+
+export default GoogleRectangle

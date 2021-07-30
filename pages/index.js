@@ -33,13 +33,13 @@ const fadeInUp = {
 export default function Home() {
   return (
     <motion.div className = "bg-white dark:bg-black" initial='initial' animate='animate' exit={{ opacity: 0 }}>
-    <Head>
+      <Head>
         <title>DSC BITS Hyd</title>
       </Head>
       <div className = "container">
-      <Header/>
-      <Hero/>
-      <AboutUs/>
+        <Header/>
+        <Hero/>
+        <AboutUs/>
       </div>
     </motion.div>
   )
