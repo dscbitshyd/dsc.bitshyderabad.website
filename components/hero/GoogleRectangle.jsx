@@ -1,8 +1,8 @@
 function GoogleRectangle() {
-    return (
-        <div>
-            <div
-          className="
+  return (
+    <div>
+      <div
+        className="
             hidden
             lg:block
             overflow-hidden
@@ -17,9 +17,9 @@ function GoogleRectangle() {
             -bottom-28
             lg:-right-36
             "
-        ></div>
-        <div
-          className="
+      />
+      <div
+        className="
             hidden
             lg:block
             overflow-hidden
@@ -35,8 +35,8 @@ function GoogleRectangle() {
             lg:-right-36
 
             "
-        ></div>
-         <div
+      />
+      <div
         className="
           hidden
           lg:block
@@ -52,8 +52,8 @@ function GoogleRectangle() {
           -bottom-28
           lg:-right-36
           "
-      ></div>
-        <div
+      />
+      <div
         className="
           hidden
           lg:block
@@ -69,9 +69,9 @@ function GoogleRectangle() {
           -bottom-28
           lg:-right-36
           "
-      ></div>
-        </div>
-    )
+      />
+    </div>
+  );
 }
 
-export default GoogleRectangle
+export default GoogleRectangle;

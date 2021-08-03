@@ -1,8 +1,8 @@
 import '../styles/globals.css';
 import '../styles/tailwind.css';
-import { AnimatePresence } from 'framer-motion'
-import { ThemeProvider } from 'next-themes'
-import * as React from 'react'
+import { AnimatePresence } from 'framer-motion';
+import { ThemeProvider } from 'next-themes';
+import * as React from 'react';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -11,8 +11,7 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
       </AnimatePresence>
     </ThemeProvider>
-
   );
 }
 
-export default MyApp
+export default MyApp;
