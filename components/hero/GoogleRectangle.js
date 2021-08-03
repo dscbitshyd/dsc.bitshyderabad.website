@@ -4,9 +4,9 @@ function GoogleRectangle() {
             <div
           className="
             hidden
-            md:block
+            lg:block
             overflow-hidden
-            bg-red-600
+            bg-google-red
             rounded-l-full
             absolute
             h-45
@@ -21,9 +21,9 @@ function GoogleRectangle() {
         <div
           className="
             hidden
-            md:block
+            lg:block
             overflow-hidden
-            bg-blue-600
+            bg-google-blue
             rounded-l-full
             absolute
             h-45
@@ -39,9 +39,9 @@ function GoogleRectangle() {
          <div
         className="
           hidden
-          md:block
+          lg:block
           overflow-hidden
-          bg-green-600
+          bg-google-green
           rounded-l-full
           absolute
           h-45
@@ -56,9 +56,9 @@ function GoogleRectangle() {
         <div
         className="
           hidden
-          md:block
+          lg:block
           overflow-hidden
-          bg-yellow-400
+          bg-google-yellow
           rounded-l-full
           absolute
           h-45

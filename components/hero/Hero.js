@@ -26,15 +26,15 @@ function Hero() {
               layoutId="title"
               className="text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6"
             >
-              Google Developer Student Club
+              Google Developer Student Clubs
               </motion.h2>
               <motion.p
-                className="text-gray-600 dark:text-gray-300 text-lg text-center lg:text-left mb-2"
+                className="text-gray-600 dark:text-gray-300 text-2xl text-center lg:text-left mb-2"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.2 }}
                 >
-              BITS Pilani Hyderabad Campus Chapter
+              BITS Pilani Hyderabad Campus
               </motion.p>
               <motion.p
                 className="text-gray-500 dark:text-gray-400 text-base text-center lg:text-left mb-6"
@@ -59,11 +59,11 @@ function Hero() {
                 }
               },
             }} className = "flex space-x-5">
-                    <SocialIcon href = "www.instagram.com" icon = {<RiFacebookCircleLine size = {30} />}/>
-                    <SocialIcon href = "www.instagram.com" icon = {<RiInstagramLine size = {30} />}/>
-                    <SocialIcon href = "www.instagram.com" icon = {<RiLinkedinBoxLine size = {30} />}/>
-                    <SocialIcon href = "www.instagram.com" icon = {<RiMediumLine size = {30} />}/>
-                    <SocialIcon href = "www.instagram.com" icon = {<RiYoutubeLine size = {30} />}/>
+                    <SocialIcon href = "www.instagram.com" icon = {<RiFacebookCircleLine size = {50} />}/>
+                    <SocialIcon href = "www.instagram.com" icon = {<RiInstagramLine size = {50} />}/>
+                    <SocialIcon href = "www.instagram.com" icon = {<RiLinkedinBoxLine size = {50} />}/>
+                    <SocialIcon href = "www.instagram.com" icon = {<RiMediumLine size = {50} />}/>
+                    <SocialIcon href = "www.instagram.com" icon = {<RiYoutubeLine size = {50} />}/>
                   </motion.div>
 
               </div>

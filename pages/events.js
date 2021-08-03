@@ -60,9 +60,17 @@ export default function Events() {
           }
         },
       }} className = "text-center md:text-left max-w-4xl mx-auto md:mx-auto mt-12 md:mt-24 items-center">
+
+      <div className = "flex">
       <h1 className = "text-5xl font-bold tracking-wide mx-auto">
           Stay Tuned! DSC is supercharged for providing many events throughout the year!
       </h1>
+      <img src= "/events.svg" height = {300} width = {300}>
+
+      </img>
+      </div>
+
+
 
         </motion.div>
     </div>
