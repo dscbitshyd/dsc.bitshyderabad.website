@@ -1,8 +1,7 @@
-import { FaDiscord } from 'react-icons/fa';
+import DiscordJoinCommunity from './DiscordJoinCommunity';
 import Logo from './Logo';
 import NavItem from './NavItem';
 import ThemeToggleButton from './ThemeToggleButton';
-import ActiveLink from './ActiveLink';
 
 function Header() {
   return (
@@ -13,12 +12,7 @@ function Header() {
           <NavItem text="Events" href="/events" />
           <NavItem text="Team" href="/team" />
           <NavItem text="Projects" href="https://github.com/dscbitshyd" />
-          <a href="https://discord.gg/F2QF5eG9">
-            <button className="flex gap-2 items-center bg-google-blue hover:bg-google-blue text-white dark:text-white font-bold p-2 rounded transition duration-500 hover:scale-110">
-              <FaDiscord />
-              <h1 className="text-red">Join Community</h1>
-            </button>
-          </a>
+          <DiscordJoinCommunity />
         </div>
         <ThemeToggleButton />
       </ul>

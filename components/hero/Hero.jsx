@@ -1,14 +1,15 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { FaDiscord } from 'react-icons/fa';
-
 import {
   RiFacebookCircleLine,
   RiLinkedinBoxLine,
   RiInstagramLine,
   RiMediumLine,
   RiYoutubeLine,
+  RiMailLine,
 } from 'react-icons/ri';
+import DiscordJoinCommunity from '../header/DiscordJoinCommunity';
+
 import GoogleRectangle from './GoogleRectangle';
 import SocialIcon from './SocialIcon';
 
@@ -27,7 +28,7 @@ function Hero() {
             lg:mt-20
           "
       >
-        <div className="flex flex-1 flex-col items-center lg:items-start">
+        <div className="flex flex-1 flex-col items-center lg:items-start gap-2">
           <motion.h2
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
@@ -93,14 +94,15 @@ function Hero() {
                 href="www.instagram.com"
                 icon={<RiYoutubeLine size={50} />}
               />
+              <SocialIcon
+                href="www.instagram.com"
+                icon={<RiMailLine size={50} />}
+              />
             </motion.div>
           </div>
-          <a href="https://discord.gg/F2QF5eG9">
-            <div className="md:hidden mt-5 flex gap-2 items-center bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded transition duration-500 hover:scale-110">
-              <FaDiscord />
-              <h1>Join Community</h1>
-            </div>
-          </a>
+          <div className="block lg:hidden md:hidden">
+            <DiscordJoinCommunity />
+          </div>
         </div>
         {/* <!-- The Dome --> */}
         <motion.div
