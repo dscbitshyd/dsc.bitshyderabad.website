@@ -51,8 +51,8 @@ function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            Google Developer Student Clubs are community groups for college and
-            university students interested in Google developer technologies
+            Google Developer Student Clubs are community groups for college and university students
+            interested in Google developer technologies
           </motion.p>
 
           <div className="flex justify-center flex-wrap gap-6">
@@ -74,30 +74,12 @@ function Hero() {
               }}
               className="flex space-x-5"
             >
-              <SocialIcon
-                href="www.instagram.com"
-                icon={<RiFacebookCircleLine size={50} />}
-              />
-              <SocialIcon
-                href="www.instagram.com"
-                icon={<RiInstagramLine size={50} />}
-              />
-              <SocialIcon
-                href="www.instagram.com"
-                icon={<RiLinkedinBoxLine size={50} />}
-              />
-              <SocialIcon
-                href="www.instagram.com"
-                icon={<RiMediumLine size={50} />}
-              />
-              <SocialIcon
-                href="www.instagram.com"
-                icon={<RiYoutubeLine size={50} />}
-              />
-              <SocialIcon
-                href="www.instagram.com"
-                icon={<RiMailLine size={50} />}
-              />
+              <SocialIcon href="www.instagram.com" icon={<RiFacebookCircleLine size={50} />} />
+              <SocialIcon href="www.instagram.com" icon={<RiInstagramLine size={50} />} />
+              <SocialIcon href="www.instagram.com" icon={<RiLinkedinBoxLine size={50} />} />
+              <SocialIcon href="www.instagram.com" icon={<RiMediumLine size={50} />} />
+              <SocialIcon href="www.instagram.com" icon={<RiYoutubeLine size={50} />} />
+              <SocialIcon href="www.instagram.com" icon={<RiMailLine size={50} />} />
             </motion.div>
           </div>
           <div className="block lg:hidden md:hidden">

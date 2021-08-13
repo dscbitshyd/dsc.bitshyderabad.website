@@ -34,9 +34,7 @@ function TeamPage() {
           }}
           className="text-center md:text-left max-w-4xl mx-auto md:mx-auto mt-12 items-center"
         >
-          <h1 className="text-5xl font-bold tracking-wide mx-auto">
-            Meet our Team
-          </h1>
+          <h1 className="text-5xl font-bold tracking-wide mx-auto">Meet our Team</h1>
 
           <Team />
         </motion.div>

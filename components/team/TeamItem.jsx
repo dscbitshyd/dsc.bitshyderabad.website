@@ -7,16 +7,10 @@ function TeamItem({ dev, url, name, position }) {
     githubIcon = (
       <div className="flex gap-5">
         <div className="border rounded-full p-2">
-          <FiGithub
-            size={25}
-            className="hover:rotate-12 transition duration-200"
-          />
+          <FiGithub size={25} className="hover:rotate-12 transition duration-200" />
         </div>
         <div className="border rounded-full p-2">
-          <FiLinkedin
-            size={25}
-            className="hover:-rotate-12 transition duration-200"
-          />
+          <FiLinkedin size={25} className="hover:-rotate-12 transition duration-200" />
         </div>
       </div>
     );
@@ -24,10 +18,7 @@ function TeamItem({ dev, url, name, position }) {
     githubIcon = (
       <div className="flex gap-5">
         <div className="border rounded-full p-2">
-          <FiLinkedin
-            size={25}
-            className="hover:rotate-12 transition duration-200"
-          />
+          <FiLinkedin size={25} className="hover:rotate-12 transition duration-200" />
         </div>
       </div>
     );
