@@ -12,8 +12,8 @@ function Team() {
           url="/Sai Ankit DSC.png"
           name="Sai Ankit"
           position="Lead"
-          github="www.github.com/saiankit"
-          linkedin="www.linkedin.com"
+          github="https://github.com/saiankit"
+          linkedin="https://www.linkedin.com/in/sai-ankit/"
         />
       </div>
       <DevelopmentDivision />

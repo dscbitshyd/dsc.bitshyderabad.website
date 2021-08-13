@@ -10,14 +10,14 @@ function BusinessDivision() {
           name="Mani Venkat"
           position="Business Lead"
           github="www.github.com/saiankit"
-          linkedin="www.linkedin.com"
+          linkedin="https://www.linkedin.com/in/mani-venkat-149965192/"
         />
         <TeamItem
-          url="/Shreya DSC.jpg"
+          url="/Vibha DSC.jpeg"
           name="Vibha Narendra"
           position="Business Lead"
           github="www.github.com/saiankit"
-          linkedin="www.linkedin.com"
+          linkedin="https://www.linkedin.com/in/vibha-n-4a14201a9/"
         />
       </div>
     </div>

@@ -13,7 +13,7 @@ export default function Home() {
       exit={{ opacity: 0 }}
     >
       <Head>
-        <title>DSC BITS Hyd</title>
+        <title>GDSC BITS Hyd</title>
       </Head>
       <div className="container">
         <Header />

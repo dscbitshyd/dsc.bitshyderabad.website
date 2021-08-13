@@ -12,7 +12,7 @@ function TeamPage() {
       exit={{ opacity: 0 }}
     >
       <Head>
-        <title>DSC Team</title>
+        <title>GDSC Team</title>
       </Head>
       <div className="container">
         <Header />

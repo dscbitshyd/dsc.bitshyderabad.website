@@ -8,6 +8,7 @@ import {
   RiYoutubeLine,
   RiMailLine,
 } from 'react-icons/ri';
+import NavItem from '../header/NavItem';
 import DiscordJoinCommunity from '../header/DiscordJoinCommunity';
 
 import GoogleRectangle from './GoogleRectangle';
@@ -74,15 +75,38 @@ function Hero() {
               }}
               className="flex space-x-5"
             >
-              <SocialIcon href="www.instagram.com" icon={<RiFacebookCircleLine size={50} />} />
-              <SocialIcon href="www.instagram.com" icon={<RiInstagramLine size={50} />} />
-              <SocialIcon href="www.instagram.com" icon={<RiLinkedinBoxLine size={50} />} />
-              <SocialIcon href="www.instagram.com" icon={<RiMediumLine size={50} />} />
-              <SocialIcon href="www.instagram.com" icon={<RiYoutubeLine size={50} />} />
-              <SocialIcon href="www.instagram.com" icon={<RiMailLine size={50} />} />
+              <SocialIcon
+                href="https://www.facebook.com/DSC-BITS-Pilani-Hyderabad-Campus-100721895642962"
+                icon={<RiFacebookCircleLine size={50} />}
+              />
+              <SocialIcon
+                href="https://www.instagram.com/gdscbitshyderabad/"
+                icon={<RiInstagramLine size={50} />}
+              />
+              <SocialIcon
+                href="https://www.linkedin.com/company/75016791/"
+                icon={<RiLinkedinBoxLine size={50} />}
+              />
+              <SocialIcon href="https://medium.com/@dscbitshyd" icon={<RiMediumLine size={50} />} />
+              <SocialIcon
+                href="https://www.youtube.com/channel/UCJq1Z26Ed4ZS-RZ5GSs5pKA"
+                icon={<RiYoutubeLine size={50} />}
+              />
+              <SocialIcon href="mailto:dscbitshyd@gmail.com" icon={<RiMailLine size={50} />} />
             </motion.div>
           </div>
-          <div className="block lg:hidden md:hidden">
+          <div className="flex gap-5 lg:hidden md:hidden mt-5">
+            <div className="border rounded-md p-2">
+              <NavItem text="Events" href="/events" />
+            </div>
+            <div className="border rounded-md p-2">
+              <NavItem text="Team" href="/team" />
+            </div>
+            <div className="border rounded-md p-2">
+              <NavItem text="Projects" href="https://github.com/dscbitshyd" />
+            </div>
+          </div>
+          <div className="block lg:hidden md:hidden mt-5">
             <DiscordJoinCommunity />
           </div>
         </div>
@@ -106,7 +130,7 @@ function Hero() {
           className="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10 transition duration-500 hover:scale-105"
         >
           <Image
-            className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full rounded-lg shadow-2xl "
+            className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full rounded-lg shadow-2xl sm:px-5"
             src="/dome-01.jpeg"
             width={1022}
             height={681}

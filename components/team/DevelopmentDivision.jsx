@@ -10,16 +10,16 @@ function DevelopmentDivision() {
           url="/Shreya DSC.jpg"
           name="Shreya Banerjee"
           position="Dev Lead"
-          github="www.github.com/saiankit"
-          linkedin="www.linkedin.com"
+          github="https://github.com/Shreya1805-web"
+          linkedin="https://www.linkedin.com/in/shreya-banerjee1805/"
         />
         <TeamItem
           dev
           url="/Vaishnavi DSC.jpg"
           name="Vaishnavi Shrivastava"
           position="Dev Lead"
-          github="www.github.com/saiankit"
-          linkedin="www.linkedin.com"
+          github="https://github.com/VaishnaviShri"
+          linkedin="https://www.linkedin.com/in/vaishnavi-shrivastava-664747206/"
         />
       </div>
     </div>

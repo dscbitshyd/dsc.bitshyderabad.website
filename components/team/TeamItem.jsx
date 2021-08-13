@@ -1,30 +1,36 @@
 import Image from 'next/image';
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
 
-function TeamItem({ dev, url, name, position }) {
+function TeamItem({ dev, url, name, position, github, linkedin }) {
   let githubIcon;
   if (dev) {
     githubIcon = (
       <div className="flex gap-5">
         <div className="border rounded-full p-2">
-          <FiGithub size={25} className="hover:rotate-12 transition duration-200" />
+          <a href={github}>
+            <FiGithub size={25} className="hover:rotate-12 transition duration-200" />
+          </a>
         </div>
-        <div className="border rounded-full p-2">
-          <FiLinkedin size={25} className="hover:-rotate-12 transition duration-200" />
-        </div>
+        <a href={linkedin}>
+          <div className="border rounded-full p-2">
+            <FiLinkedin size={25} className="hover:-rotate-12 transition duration-200" />
+          </div>
+        </a>
       </div>
     );
   } else {
     githubIcon = (
       <div className="flex gap-5">
-        <div className="border rounded-full p-2">
-          <FiLinkedin size={25} className="hover:rotate-12 transition duration-200" />
-        </div>
+        <a href={linkedin}>
+          <div className="border rounded-full p-2">
+            <FiLinkedin size={25} className="hover:rotate-12 transition duration-200" />
+          </div>
+        </a>
       </div>
     );
   }
   return (
-    <div className=" transition duration-500 hover:scale-105 dark:bg-gray-100 border-2  flex flex-col rounded-2xl shadow-xl lg:mb-16">
+    <div className="transition duration-500 hover:scale-105 dark:bg-gray-100 border-2 flex flex-col rounded-2xl shadow-xl lg:mb-16">
       <div className="p-6 flex flex-col items-center">
         <Image
           className="p-12 rounded-full mx-auto"
