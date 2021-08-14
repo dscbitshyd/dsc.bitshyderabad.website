@@ -9,14 +9,12 @@ function BusinessDivision() {
           url="/Mani Venkat DSC.jpeg"
           name="Mani Venkat"
           position="Business Lead"
-          github="www.github.com/saiankit"
           linkedin="https://www.linkedin.com/in/mani-venkat-149965192/"
         />
         <TeamItem
-          url="/Vibha DSC.jpeg"
+          url="/Vibha DSC.jpg"
           name="Vibha Narendra"
           position="Business Lead"
-          github="www.github.com/saiankit"
           linkedin="https://www.linkedin.com/in/vibha-n-4a14201a9/"
         />
       </div>

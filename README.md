@@ -3,6 +3,8 @@
 
 This is a Next.js and TailwindCSS project built for the Google Developer student club BITS Pilani Hyderabad Campus Chapter.
 
+Website is live at https://gdsc-bitshyderabad.vercel.app/
+
 
 ## Run Locally
 
