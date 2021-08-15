@@ -16,7 +16,7 @@ import SocialIcon from './SocialIcon';
 
 function Hero() {
   return (
-    <section className="relative">
+    <section className="relative p-4">
       <div
         className="
             container

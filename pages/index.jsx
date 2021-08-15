@@ -7,7 +7,7 @@ import AboutUs from '../components/aboutUs/AboutUs';
 export default function Home() {
   return (
     <motion.div
-      className="bg-white dark:bg-black"
+      className="bg-white dark:bg-black overflow-hidden"
       initial="initial"
       animate="animate"
       exit={{ opacity: 0 }}
