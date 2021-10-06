@@ -9,7 +9,7 @@ function Team() {
       <div className="grid-cols-1 md:flex gap-16 justify-center items-center">
         <TeamItem
           dev
-          url="/Sai Ankit DSC.png"
+          url="/Sai Ankit DSC.jpg"
           name="Sai Ankit"
           position="Lead"
           github="https://github.com/saiankit"

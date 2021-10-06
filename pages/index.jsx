@@ -21,5 +21,6 @@ export default function Home() {
         <AboutUs />
       </div>
     </motion.div>
+    
   );
 }
